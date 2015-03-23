@@ -38,7 +38,8 @@ class RedmineOauthController < AccountController
   def try_to_login info
    params[:back_url] = session[:back_url]
    session.delete(:back_url)
-   user = User.find_or_initialize_by_mail(info["email"])
+   #user = User.find_or_initialize_by_mail(info["email"])
+   user = User.having_mail(info["email"]).select { |u| u.mail == info["email"] }.first || User.new(:language => Setting.default_language, :mail_notification => Setting.default_notification_option)
     if user.new_record?
       # Self-registration off
       redirect_to(home_url) && return unless Setting.self_registration?
