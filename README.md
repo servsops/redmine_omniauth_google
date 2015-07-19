@@ -1,5 +1,9 @@
 ## Redmine omniauth google
 
+[![Code Climate](https://codeclimate.com/github/servsops/redmine_omniauth_google/badges/gpa.svg)](https://codeclimate.com/github/servsops/redmine_omniauth_google)
+
+[![Test Coverage](https://codeclimate.com/github/servsops/redmine_omniauth_google/badges/coverage.svg)](https://codeclimate.com/github/servsops/redmine_omniauth_google/coverage)
+
 This plugin is used to authenticate Redmine users using Google's OAuth2 provider.
 
 ### Installation:
