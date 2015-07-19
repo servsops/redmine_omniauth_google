@@ -1,0 +1,18 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/gankgu/Desktop/redmine_omniauth_google/lib/redmine_omniauth_google/hooks.rb": [
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1437267479
+  }
+}
